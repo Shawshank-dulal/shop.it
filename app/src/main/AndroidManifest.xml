@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Shopit"
         >
-        <activity android:name=".cart"/>
+        <activity android:name=".activity_cart"/>
         <activity android:name=".homepage" />
         <activity android:name=".login" />
         <activity android:name=".MainActivity"/>
