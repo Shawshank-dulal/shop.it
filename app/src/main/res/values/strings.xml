@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Shop.it</string>
+    <string name="slogan">Great lifestyle at your fingertips</string>
+    <string name="login">login</string>
+    <string name="login_string">Login to have access to products offered</string>
+    <string name="password_caption">Password</string>
+    <string name="password_string">At least 8 symbols...</string>
+    <string name="email_caption">E-mail</string>
+    <string name="email_example">e.g. john@gmail.com</string>
+    <string name="label_string">Login</string>
+    <string name="label_ek1_string">
+        <u>Forget Password?</u></string>
+    <string name="email_label">email label</string>
+    <string name="forgot_password_string">Having Trouble Logging In? Click Here</string>
+    <string name="button">Button</string>
+    <string name="action_1">Add To cart</string>
+    <string name="action_2">Buy</string>
+    <string name="content_description_media">Robot Image</string>
+    <string name="title">Robot</string>
+    <string name="secondary_text">120$</string>
+    <string name="Register_Button">Register</string>
+    <string name="password_input_label">Enter Password Here</string>
 </resources>
