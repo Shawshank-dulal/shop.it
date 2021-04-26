@@ -7,8 +7,7 @@
         android:id="@+id/home"
         android:enabled="true"
         android:icon="@drawable/home_icon"
-        android:title="Home"
-        android:onClick="switchToHomepage"/>
+        android:title="Home"/>
     <item
         android:id="@+id/cart"
         android:enabled="true"

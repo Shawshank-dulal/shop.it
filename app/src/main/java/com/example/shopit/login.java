@@ -14,8 +14,8 @@ public class login extends AppCompatActivity  {
         setContentView(R.layout.activity_login);
     }
     public void switchToHomepage(View view){
-        Intent homepage=new Intent(login.this, com.example.shopit.homepage.class)
-        startActivity(homepage)
+        Intent homepage=new Intent(login.this, homepage.class);
+        startActivity(homepage);
     }
 
 

@@ -53,7 +53,6 @@
             android:layout_marginBottom="0dp"
             app:menu="@menu/navigation" />
 
-
 </RelativeLayout>
 
 
