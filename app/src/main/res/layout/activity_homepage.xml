@@ -1,57 +1,304 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".homepage"
-    android:background="@color/white"
-    android:orientation="vertical">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content">
 
-
-
-<!--        <androidx.recyclerview.widget.RecyclerView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:orientation="horizontal"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:id="@+id/trending_slide">-->
-
-<!--            <ImageView-->
-<!--                android:id="@+id/product_image"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="200dp"-->
-<!--                />-->
-<!--            <TextView-->
-<!--                android:id="@id/product_name"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="40dp"/>-->
-
-<!--            <TextView-->
-<!--                android:id="@+id/price"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="20dp"/>-->
-<!--            <view-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="40dp"/>-->
-<!--        </androidx.recyclerview.widget.RecyclerView>-->
-
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottom_navigation"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            tools:context=".homepage">
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginLeft="65dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="0dp"
+                            android:src="@drawable/robot" />
+                        <TextView
+                            android:id="@+id/robot"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="185dp"
+                            android:text="@string/robot"
+                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            />
+                        <TextView
+                            android:id="@+id/price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="200dp"
+                            android:text="19.99 $US"
+                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            />
+
+                        <ImageView
+                            android:layout_width="115dp"
+                            android:layout_height="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginTop="60dp"
+                            android:layout_marginBottom="161dp"
+                            android:src="@drawable/rating" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginLeft="65dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="0dp"
+                            android:src="@drawable/robot" />
+                        <TextView
+                            android:id="@+id/robot2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="185dp"
+                            android:text="@string/robot"
+                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            />
+                        <TextView
+                            android:id="@+id/price2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="200dp"
+                            android:text="19.99 $US"
+                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            />
+
+                        <ImageView
+                            android:layout_width="115dp"
+                            android:layout_height="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginTop="60dp"
+                            android:layout_marginBottom="161dp"
+                            android:src="@drawable/rating" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginLeft="65dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="0dp"
+                            android:src="@drawable/robot" />
+                        <TextView
+                            android:id="@+id/robot3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="185dp"
+                            android:text="@string/robot"
+                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            />
+                        <TextView
+                            android:id="@+id/price3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="200dp"
+                            android:text="19.99 $US"
+                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            />
+
+                        <ImageView
+                            android:layout_width="115dp"
+                            android:layout_height="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginTop="60dp"
+                            android:layout_marginBottom="161dp"
+                            android:src="@drawable/rating" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginLeft="65dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="0dp"
+                            android:src="@drawable/robot" />
+                        <TextView
+                            android:id="@+id/robot4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="185dp"
+                            android:text="@string/robot"
+                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            />
+                        <TextView
+                            android:id="@+id/price4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="200dp"
+                            android:text="19.99 $US"
+                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            />
+
+                        <ImageView
+                            android:layout_width="115dp"
+                            android:layout_height="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginTop="60dp"
+                            android:layout_marginBottom="161dp"
+                            android:src="@drawable/rating" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginLeft="65dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="0dp"
+                            android:src="@drawable/robot" />
+                        <TextView
+                            android:id="@+id/robot5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="185dp"
+                            android:text="@string/robot"
+                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            />
+                        <TextView
+                            android:id="@+id/price5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="15dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="200dp"
+                            android:text="19.99 $US"
+                            android:textSize="14dp"
+                            android:textColor="#000000"
+                            />
+
+                        <ImageView
+                            android:layout_width="115dp"
+                            android:layout_height="10dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginTop="60dp"
+                            android:layout_marginBottom="161dp"
+                            android:src="@drawable/rating" />
+                </RelativeLayout>
+
+        </ScrollView>
+
+        <SearchView
+            android:layout_width="200dp"
+            android:layout_height="45dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginLeft="0dp"
-            android:layout_marginTop="650dp"
-            android:layout_marginEnd="0dp"
-            android:layout_marginRight="0dp"
-            android:layout_marginBottom="0dp"
-            app:menu="@menu/navigation" />
+            android:layout_marginStart="105dp"
+            android:layout_marginLeft="131dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="105dp"
+            android:layout_marginRight="211dp"
+            android:background="@drawable/search_border" />
+
+        <TextView
+            android:id="@+id/trending_pr"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="120dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:lineSpacingExtra="15sp"
+            android:text="@string/trending_product"
+            android:textSize="16dp" />
+
+<!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--            android:id="@+id/bottom_navigation"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="0dp"-->
+<!--            android:layout_marginLeft="0dp"-->
+<!--            android:layout_marginEnd="0dp"-->
+<!--            android:layout_marginRight="0dp"-->
+<!--            android:layout_marginBottom="0dp"-->
+<!--            app:menu="@menu/navigation" />-->
 
 </RelativeLayout>
 

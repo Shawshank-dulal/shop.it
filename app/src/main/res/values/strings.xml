@@ -41,4 +41,6 @@
     <string name="Shoes">Shoes</string>
     <string name="phone">Phone</string>
     <string name="categories_heading">Categories</string>
+    <string name="trending_product">Trending Product</string>
+    <string name="robot">Robot</string>
 </resources>
