@@ -17,6 +17,11 @@ public class cart extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
     }
+
+    public void addCheckout(View view){
+
+    }
+
     public void addDeleteButton(View view){
         RelativeLayout cart_layout= (RelativeLayout) findViewById(R.id.cart_layout);
         Button delete=new Button(this);

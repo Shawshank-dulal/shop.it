@@ -1,0 +1,189 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_cart"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="360dp"
+    android:height="640dp"
+    android:viewportWidth="360"
+    android:viewportHeight="640">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/back_button"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="15dp"
+        app:icon="@drawable/arrow_left"
+        app:iconSize="20dp"
+        app:iconTint="@color/black" />
+    <TextView
+        android:id="@+id/categories"
+        android:layout_width="98dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="132dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:text="@string/categories_heading"
+        android:gravity="top"
+        />
+<RelativeLayout
+    android:id="@+id/category_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/category_1_button"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:layout_width="205dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="206dp"
+        android:backgroundTintMode="@color/white"
+        app:icon="@drawable/clothing_icon"
+        app:iconSize="100dp"
+        app:iconTint="" >
+
+    </com.google.android.material.button.MaterialButton>
+
+    <TextView
+        android:id="@+id/clothing_label"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/category_1_button"
+        android:layout_alignLeft="@+id/category_1_button"
+        android:layout_alignTop="@+id/category_1_button"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="37dp"
+        android:text="Clothing" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/category_2"
+        android:layout_below="@+id/category_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/category_2_button"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="205dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="105dp"
+            android:layout_marginRight="206dp"
+            android:backgroundTintMode="@color/white"
+            app:icon="@drawable/electronics_icon"
+            app:iconSize="100dp"
+            app:iconTint="">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <TextView
+            android:id="@+id/electronics_label"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_alignStart="@+id/category_2_button"
+            android:layout_alignLeft="@+id/category_2_button"
+            android:layout_alignTop="@+id/category_2_button"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="37dp"
+            android:text="Electronics" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/category_3"
+        android:layout_below="@+id/category_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/category_3_button"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="205dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="105dp"
+            android:layout_marginRight="206dp"
+            android:backgroundTintMode="@color/white"
+            app:icon="@drawable/home_improvement_icon"
+            app:iconSize="100dp"
+            app:iconTint="">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <TextView
+            android:id="@+id/home_improvement_label"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_alignStart="@+id/category_3_button"
+            android:layout_alignLeft="@+id/category_3_button"
+            android:layout_alignTop="@+id/category_3_button"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="37dp"
+            android:text="Home" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/category_4"
+        android:layout_below="@+id/category_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/category_4_button"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="205dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="105dp"
+            android:layout_marginRight="206dp"
+            android:backgroundTintMode="@color/white"
+            app:icon="@drawable/automotive_icon"
+            app:iconSize="100dp"
+            app:iconTint="">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <TextView
+            android:id="@+id/automotive_label"
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:layout_alignStart="@+id/category_4_button"
+            android:layout_alignLeft="@+id/category_4_button"
+            android:layout_alignTop="@+id/category_4_button"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="37dp"
+            android:text="Automotive" />
+    </RelativeLayout>
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="0dp"-->
+
+<!--        app:menu="@menu/navigation" />-->
+
+</RelativeLayout>
